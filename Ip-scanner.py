@@ -4,8 +4,6 @@ import scapy.all as scapy
 import argparse
 
 
-# we use that argparse because we can add more feature , in optparse we can't. (**Note: optparse and argparse both work with python2, python3.)
-
 
 def get_arguments():
     parser = argparse.ArgumentParser()
